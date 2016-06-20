@@ -11,7 +11,7 @@ Simple benchmarking tool.
 
 ## Usage
 ```javascript
-const bench = require('@rdcl/bench');
+const bench = require('@rdcl/bench')
 
 // synchronously:
 bench('#test 1', () => {
