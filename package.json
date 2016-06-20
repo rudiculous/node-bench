@@ -1,0 +1,26 @@
+{
+  "name": "@rdcl/bench",
+  "version": "0.1.0",
+  "description": "Simple benchmarking tool.",
+  "main": "index.js",
+  "scripts": {
+    "cover": "istanbul cover _mocha -- -R spec test/*",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudiculous/node-bench.git"
+  },
+  "author": "RJ van der Weide <rj@rdcl.nl> (https://ruud.online/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudiculous/node-bench/issues"
+  },
+  "homepage": "https://github.com/rudiculous/node-bench#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  }
+}
